@@ -43,15 +43,7 @@ The investigation was carried out using R programming language Version 4.4.1 (20
 * `devtools`
   * `ricardo-bion/ggradar`
 
-## Composite visualisations
- The dataset and code generated composite visualisations depicting the predictive power of models employed throughout analysis.
-These were visualised to provide a detailed view of musical features and their relationships to popularity across genres:
-* **Univariate popularity ~ feature analysis:**
-Presented relationships between popularity across genres, and their musical features.
-
-* **Multivariate popularity ~ features analysis:**
-Displayed genre - feature associations to evaluate differences between high/low popularity genres.
-
+<br>
 <details>
   <summary><h2>Prerequisites and instructions</h2></summary>
 
@@ -127,14 +119,12 @@ Additionally, generated `.csv` files are stored in the `csv ouputs` folder, whic
 * and more!
 
 </details>
-
-
+<br/>
 
 ## key findings
 
 
 ## License
-
 This project is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a>
 
 See `license` file for more details.

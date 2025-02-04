@@ -5,7 +5,7 @@
 # Popularity visualisations for INF4000
  
 <img 
-src = "https://raw.githubusercontent.com/G-Imola/Visualisations-of-Popularity/main/Plots/Composite%20Visualisation.png"
+src = "https://raw.githubusercontent.com/G-Imola/Visualisations-of-Popularity/main/Plots/Readme%20composite%20visualisation.png"
  alt = "GitHub README Image">
 
 ## Introduction
@@ -44,7 +44,6 @@ The investigation was carried out using R programming language Version 4.4.1 (20
 * `extrafont`
 * `devtools`
   * `ricardo-bion/ggradar`
-
 <br>
 <details>
   <summary><h2>Prerequisites and instructions</h2></summary>
@@ -64,7 +63,7 @@ Download the project files by cloning the repository.
 This can be performed by running the following command
 in your **IDE**:
 
-`git clone https://github.com/G-Imola/Popularity-Feature-Analysis.git`
+`git clone https://github.com/G-Imola/Visualisations-of-Popularity.git`
 
 After cloning, verify that the active Git branch is set to **main**.
 
@@ -80,7 +79,7 @@ branch by following these steps:
 ```
 #enter the terminal on your selected IDE and input the command below:
 
-cd Popularity-
+cd Visualisations-of-Popularity
 
 
 #Following this, type the code below:
@@ -103,7 +102,7 @@ Ensure that the <a href="https://github.com/G-Imola/Visualisations-of-Popularity
 directory of the cloned repository.
 
  ### 4. Execute the script
-Open `R file.R` (<a href ="">link</a>) in Rstudio (or your preferred IDE), and run the script sequentially to generate:
+Open `Data Visualisations.R` (<a href ="">link</a>) in Rstudio (or your preferred IDE), and run the script sequentially to generate:
 1. Radar Chart
 2. Parallel Coordinate plot
 3. Violin plot

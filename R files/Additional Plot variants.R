@@ -91,7 +91,7 @@ ggplot(HiLo.Quantpop, aes(x = popularity, y = value, fill = pop_category )) +
 HiLogrouped_music_data.adj <- grouped_music_data.Qcat
 
 
-#PCA analysis variant
+#PCA analysis 
 
 Filter.adj.music_data <- adj.ms_cat %>% 
   filter(track_genre %in% c("pop-film", "k-pop", "chill",
@@ -158,7 +158,50 @@ ggplot(better.pca_DF, aes(x = PC1, y = PC2, color = pop_category)) +
   )
   
 
+#radar plot alternatives
 
+#Faceted clustered bar chart
+
+filtered_genres.long <- filtered_genres %>%
+  pivot_longer(cols = 3:11,
+               names_to = "feature",
+               values_to = 'value')
+
+ggplot(filtered_genres.long, aes(x = reorder(track_genre, popularity, FUN = mean), y = value, fill = popularity)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  facet_wrap(~ feature, scales = "free_y") +
+  scale_fill_gradient(low = "lightblue", high = "darkblue") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 65, vjust = 0.575)) +
+  labs(title = "Relationship between music feature intensity and genres",
+       x = "Genre (ordered by increasing popularity)",
+       y = "Feature intensity",
+       fill = "Popularity")
+
+
+#----Heatmap ----
+
+#creates long column of radarplot data, and adds additional popularity column
+filtered_genres.longPop <- filtered_genres %>%
+  mutate(popcol = popularity) %>%
+  mutate(track_genre = fct_reorder(track_genre,popcol, .fun = mean)) %>% #reorders the genres in descending mean popularity
+  pivot_longer(cols = 2:11,
+               names_to = "feature",
+               values_to = 'value')
+
+#heatmap
+ggplot(filtered_genres.longPop,aes(x = feature, y = track_genre, fill = value)) +
+  geom_tile() +
+  scale_fill_gradientn(
+    colors = brewer.pal(9, "PRGn"),
+    name = "intensity of feature") +
+  theme_minimal() + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(
+    x = "Musical Features within tracks", y = "Track Genre",
+    title = "Heatmap of genre and musical feature intensity",
+    subtitle = "The relationship between genres and musical features",
+  )
 
 
 

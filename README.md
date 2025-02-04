@@ -1,8 +1,5 @@
 # Visualisations of Popularity
 ## Investigating popularity trends across music features
-
-
-# Popularity visualisations for INF4000
  
 <img 
 src = "https://raw.githubusercontent.com/G-Imola/Visualisations-of-Popularity/main/Plots/Readme%20composite%20visualisation.png"
@@ -163,7 +160,9 @@ See `license` file for more details.
 For queries or further information, please contact:
 
 Name: Gianmarco Imola
+
 Email: gian.imola2003@gmail.com
+
 GitHub: https://github.com/G-Imola
 
 

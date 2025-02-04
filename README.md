@@ -102,31 +102,45 @@ Ensure that the <a href="https://github.com/G-Imola/Visualisations-of-Popularity
 directory of the cloned repository.
 
  ### 4. Execute the script
-Open `Data Visualisations.R` (<a href ="">link</a>) in Rstudio (or your preferred IDE), and run the script sequentially to generate:
+Open `Data Visualisations.R` (<a href ="https://github.com/G-Imola/Visualisations-of-Popularity/blob/main/R%20files/Data%20visualisations.R">link</a>) in Rstudio (or your preferred IDE), and run the script sequentially to generate:
 1. Radar Chart
 2. Parallel Coordinate plot
 3. Violin plot
 4. Additional descriptive plots
 
+#### 4.1 Additional scripts
+To visualise additional content, such as plot variants, run the main file, then download and run `Additional plot variants.R` (<a href ="https://github.com/G-Imola/Visualisations-of-Popularity/blob/main/R%20files/Additional%20Plot%20variants.R">link</a>)
+
  ### 5.Outputs
 Generated visualisations are all stored in the `plots` directory.
 
+Additional plots from **4.1** are stored in `plots/Extra`
+
 The outputs include:
 
-* `.`
+* Radar plots
+* Violin/Box-plots
+* Parallel Coordinate plots
+* Principal Component Analysis plots
+* And other variations!
 
-Additionally, generated `.csv` files are stored in the `csv ouputs` folder, which contain various outputs from the dataset, including:
-* 
-* and more!
-
+Additionally, plot data utilised (`.csv` files) are stored in the `.csv plot data` folder, 
+which contain various tabular outputs from the visualisations generated.
 </details>
 <br/>
 
 ## key findings
 
-1.
-2.
-3.
+1. Violin plots show how gradual changes in music feature data impact popularity, with high popularity songs displaying:
+   * Very low instrumentalness
+   * High energy
+   * Moderate danceability
+2. PCA plots highlight how high popularity tracks exhibit:
+   * moderate vocal presence, upbeat rhythms, and moderate acoustic presence
+3. Radar Plots display high popularity tracks as:
+   * High in valence and loudness
+   * Moderate in acousticness
+   * low in instrumentalness
 
 ## License
 This project is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a>

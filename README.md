@@ -135,13 +135,24 @@ which contain various tabular outputs from the visualisations generated.
    * Very low instrumentalness
    * High energy
    * Moderate danceability
+<img 
+src = "https://raw.githubusercontent.com/G-Imola/Visualisations-of-Popularity/main/Plots/Distribution%20of%20feature%20intensity%20by%20popularity%20category.png"
+ alt = "Violin plot image">
+
 2. PCA plots highlight how high popularity tracks exhibit:
    * moderate vocal presence, upbeat rhythms, and moderate acoustic presence
+<img 
+src = "https://raw.githubusercontent.com/G-Imola/Visualisations-of-Popularity/main/Plots/Categorised%20music%20popularity%20and%20their%20musical%20traits.png"
+ alt = "PCA plot image">
+
 3. Radar Plots display high popularity tracks as:
    * High in valence and loudness
    * Moderate in acousticness
    * low in instrumentalness
 
+<img 
+src = "https://raw.githubusercontent.com/G-Imola/Visualisations-of-Popularity/main/Plots/Spider%20plot%20of%20feature%20intensity%20across%20genres.png"
+ alt = "PCA plot image">
 ## License
 This project is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a>
 

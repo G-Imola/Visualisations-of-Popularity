@@ -19,8 +19,7 @@ This project intended to generate a composite visualisation to display popularit
 The specific research questions were listed as follows:
 
 1. What features are most prevalent across various popularity categories?
-2. What features distinguish high – and low – popularity tracks? 
-3. Are there features negatively correlated with popularity?
+2. What features distinguish high – and low – popularity tracks?
 
 
 ## Sourcing
@@ -40,6 +39,9 @@ The investigation was carried out using R programming language Version 4.4.1 (20
 * `ggalt`
 * `GGally`
 * `ggtext`
+* `gridExtra`
+* `forcats`
+* `extrafont`
 * `devtools`
   * `ricardo-bion/ggradar`
 

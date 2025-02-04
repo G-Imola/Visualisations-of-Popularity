@@ -5,7 +5,7 @@
 # Popularity visualisations for INF4000
  
 <img 
-src = "#rawimg"
+src = "https://raw.githubusercontent.com/G-Imola/Visualisations-of-Popularity/main/Plots/Composite%20Visualisation.png"
  alt = "GitHub README Image">
 
 ## Introduction
@@ -97,11 +97,11 @@ After following the steps above, your IDE should display the repository, alongsi
 
 
  ### 3. Dataset Placement
-Ensure that the <a href="###" target="_blank">Original Dataset</a> is downloaded and placed in the root
+Ensure that the <a href="https://github.com/G-Imola/Visualisations-of-Popularity/blob/main/Original%20Dataset" target="_blank">Original Dataset</a> is downloaded and placed in the root
 directory of the cloned repository.
 
  ### 4. Execute the script
-Open `R file.R` (<a href ="https://github.com/G-Imola/Popularity-Feature-Analysis/blob/main/R%20file.R">link</a>) in Rstudio, or your preferred IDE, and run the script sequentially to generate:
+Open `R file.R` (<a href ="">link</a>) in Rstudio (or your preferred IDE), and run the script sequentially to generate:
 1. Radar Chart
 2. Parallel Coordinate plot
 3. Violin plot
@@ -112,7 +112,7 @@ Generated visualisations are all stored in the `plots` directory.
 
 The outputs include:
 
-* `Faceted univariate plot.png`
+* `.`
 
 Additionally, generated `.csv` files are stored in the `csv ouputs` folder, which contain various outputs from the dataset, including:
 * 
@@ -123,6 +123,9 @@ Additionally, generated `.csv` files are stored in the `csv ouputs` folder, whic
 
 ## key findings
 
+1.
+2.
+3.
 
 ## License
 This project is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a>
